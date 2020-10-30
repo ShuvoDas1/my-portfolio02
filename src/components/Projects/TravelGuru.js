@@ -4,6 +4,7 @@ import reactLogo from '../../images/reactLogo.png';
 import screen1 from '../../images/travel-guru-page1.png'
 import screen2 from '../../images/travel-guru2.png'
 import screen3 from '../../images/travel-guru3.png'
+import screen4 from '../../images/travel-guru4.png'
 
 const TravelGuru = () => {
     return (
@@ -40,9 +41,10 @@ const TravelGuru = () => {
                     <div className='my-5'>
                         <h3> Screenshort:</h3>
                         <div>
-                            <img width='400px' src={screen1} alt=''/>
-                            <img width='400px' src={screen2} alt=''/>
-                            <img width='400px' src={screen3} alt=''/>
+                            <img width='500px' src={screen1} alt=''/>
+                            <img className='ml-3' width='500px' src={screen2} alt=''/>
+                            <img  className='mt-3' width='500px' src={screen3} alt=''/>
+                            <img   className='mt-3 ml-3' width='500px' src={screen4} alt=''/>
                         </div>
                     </div>
                 </div>

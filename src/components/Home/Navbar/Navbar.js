@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link, NavLink } from 'react-router-dom';
 
 const Navbar = () => {
     const [open, setOpen] = useState(false);
@@ -13,20 +14,20 @@ const Navbar = () => {
             <div className="collapse navbar-collapse " id="navbarTogglerDemo03">
 
                 <ul className="navbar-nav m-auto text-black mt-2 mt-lg-0">
+                    <li className="nav-item mx-4">
+                        <NavLink className='text-decoration-none ' to='/home'>Home</NavLink>
+                    </li>
                     <li className="nav-item text-dark mx-4">
-                        <a className="nav-link" href="/home">home</a>
-                    </li>
-                    <li className="nav-item text-dark mx-4">
-                        <a className="nav-link" href="/projects">Projects</a>
+                        <NavLink className='text-decoration-none' to='/projects'>Projects</NavLink>
                     </li>
                     <li className="nav-item mx-4">
-                        <a className="nav-link" href="/blog">Blog</a>
+                        <NavLink className='text-decoration-none' to='/blog'>blog</NavLink>
                     </li>
                     <li className="nav-item mx-4">
-                        <a className="nav-link" href="/resume">Resume</a>
+                        <NavLink className='text-decoration-none' to='/myResume'>My Resume</NavLink>
                     </li>
                     <li className="nav-item mx-4">
-                        <a className="nav-link" href="aboutme">About Me</a>
+                        <NavLink className='text-decoration-none' to='/aboutMe'>About Me</NavLink>
                     </li>
                 </ul>
             </div>

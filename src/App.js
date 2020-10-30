@@ -5,9 +5,12 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import AboutMe from "./components/AboutMe/AboutMe";
+import Blog from "./components/Blog/Blog";
 import Home from "./components/Home/Home/Home";
 import Navbar from "./components/Home/Navbar/Navbar";
 import Projects from "./components/Projects/Projects";
+import Resume from "./components/Resume/Resume";
 
 function App() {
   return (
@@ -22,6 +25,15 @@ function App() {
         </Route>
         <Route path='/projects'>
             <Projects></Projects>
+        </Route>
+        <Route path='/blog'>
+            <Blog></Blog>
+        </Route>
+        <Route path='/myResume'>
+            <Resume></Resume>
+        </Route>
+        <Route path='/aboutMe'>
+            <AboutMe></AboutMe>
         </Route>
       </Switch>
     </Router>
