@@ -8,8 +8,8 @@ import screen4 from '../../../images/volunteer-network4.png'
 const VolunteerNetwork = () => {
     return (
         <section>
-        <div className='d-flex justify-content-left ml-5 pl-5 mt-5'>
-            <div>
+        <div className='d-flex justify-content-left row ml-3 pl-5 mt-5'>
+            <div className="col-12">
                 <h2 className='text-center'><strong>Volunteer Network</strong></h2>
                 <hr />
 

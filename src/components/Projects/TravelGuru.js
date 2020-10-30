@@ -9,8 +9,8 @@ import screen4 from '../../images/travel-guru4.png'
 const TravelGuru = () => {
     return (
         <section>
-            <div className='d-flex justify-content-left ml-5 pl-5 mt-5'>
-                <div>
+            <div className='d-flex justify-content-left  ml-3 pl-5 mt-5 row'>
+                <div className=' col-12'>
                     <h2 className='text-center'><strong>Travel Guru</strong></h2>
                     <hr/>
                     
@@ -26,7 +26,6 @@ const TravelGuru = () => {
                     <br/>
                     <div className='bg-grey'>
                         <h3> Technologies:</h3>
-                        <img width='75px' src={reactLogo} alt=''/>
                         <h5>React.Js,  Javascript,  Firebase , Netlify,  React-Bootstrap</h5>
                     
                     </div>
