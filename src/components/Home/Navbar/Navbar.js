@@ -24,10 +24,10 @@ const Navbar = () => {
                         <NavLink className='text-decoration-none' to='/blog'>blog</NavLink>
                     </li>
                     <li className="nav-item mx-4">
-                        <NavLink className='text-decoration-none' to='/myResume'>My Resume</NavLink>
+                        <NavLink className='text-decoration-none' to='/aboutMe'>About Me</NavLink>
                     </li>
                     <li className="nav-item mx-4">
-                        <NavLink className='text-decoration-none' to='/aboutMe'>About Me</NavLink>
+                        <NavLink className='text-decoration-none' to='/contactMe'>Contact Me</NavLink>
                     </li>
                 </ul>
             </div>

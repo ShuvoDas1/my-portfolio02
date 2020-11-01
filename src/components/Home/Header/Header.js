@@ -1,28 +1,51 @@
 
 import React from 'react';
 import { Col, Row, Button } from 'react-bootstrap';
-import myPic from '../../../images/edu-pic.jpg'
+import { useHistory } from 'react-router-dom';
+import ReactTypingEffect from 'react-typing-effect';
 import './Header.css'
-const Header = () => {
-    return (
-        <section className='header'>
-            <Row className="justify-content-center p-5">
-                <Col  s={12} md={5} className='text-center'>
-                    <div>
-                        <h1>HI! I'm Shuvo Das</h1>
-                        <h3>Web Developer</h3>
-                    </div>
-                    <p>I am studing BSC in CSE at East Delta University</p>
-                    <small>Download my resume</small>
-                    <br />
-                    <Button href='https://drive.google.com/file/d/1F30AkcJRTBm8oKv3ffM42o4VAuEmhF5M/view?usp=sharing' color="transparent" download>Download</Button>
 
-                </Col>
-                <Col lg={6} s={12}>
-                    <img className='myPic' src={myPic} alt=''  />
-                </Col>
-            </Row>
-        </section>
+const Header = () => {
+
+    const history = useHistory()
+
+    const handleContactMe = () =>{
+        history.push('/contactMe');
+    }
+
+    return (
+
+            <section className='headerMain'>
+                <div className='container'>
+                    <h1>HI! I'm Shuvo Das</h1>
+                    <ReactTypingEffect
+                        text={[" Front End Developer", " MARN Stack  Developer"]}
+                        cursorRenderer={cursor => <h1>{cursor}</h1>}
+                        displayTextRenderer={(text, i) => {
+                            return (
+                                <h3> I'm a
+                                    {text.split('').map((char, i) => {
+                                        const key = `${i}`;
+                                        return (
+                                            <span
+                                                key={key}
+                                                style={i % 2 === 0 ? { color: '#E19D28' } : {}}
+                                            >{char}</span>
+                                        );
+                                    })}
+
+                                </h3>
+                            );
+                        }}
+                    />
+                    <br />
+                    <div className='mt-3'>
+                        <Button onClick={handleContactMe} className='px-5 mr-3'>Contact Me</Button>
+                        <Button className='btn-warning px-5' href='https://drive.google.com/file/d/1F30AkcJRTBm8oKv3ffM42o4VAuEmhF5M/view?usp=sharing' target='_blank' color="transparent" download>Resume</Button>
+                    </div>
+                </div>
+
+            </section>
     );
 };
 

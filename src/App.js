@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import AboutMe from "./components/AboutMe/AboutMe";
 import Blog from "./components/Blog/Blog";
+import ContactMe from "./components/ContactMe/ContactMe";
 import Home from "./components/Home/Home/Home";
 import Navbar from "./components/Home/Navbar/Navbar";
 import Projects from "./components/Projects/Projects";
@@ -34,6 +35,9 @@ function App() {
         </Route>
         <Route path='/aboutMe'>
             <AboutMe></AboutMe>
+        </Route>
+        <Route path='/contactMe'>
+            <ContactMe></ContactMe>
         </Route>
       </Switch>
     </Router>
