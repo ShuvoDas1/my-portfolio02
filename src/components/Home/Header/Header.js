@@ -19,7 +19,7 @@ const Header = () => {
                 <div className='container'>
                     <h1>HI! I'm Shuvo Das</h1>
                     <ReactTypingEffect
-                        text={[" Front End Developer", " MARN Stack  Developer"]}
+                        text={[" Front End Developer", " MARN Stack  Developer", " Web Developer"]}
                         cursorRenderer={cursor => <h1>{cursor}</h1>}
                         displayTextRenderer={(text, i) => {
                             return (
@@ -41,7 +41,7 @@ const Header = () => {
                     <br />
                     <div className='mt-3'>
                         <Button onClick={handleContactMe} className='px-5 mr-3'>Contact Me</Button>
-                        <Button className='btn-warning px-5' href='https://drive.google.com/file/d/1F30AkcJRTBm8oKv3ffM42o4VAuEmhF5M/view?usp=sharing' target='_blank' color="transparent" download>Resume</Button>
+                        <Button className='btn-warning px-5' href='https://drive.google.com/file/d/1HS_FgIRJ_TQP6giaQLouRbY5Pap1r4Ha/view?usp=sharing' target='_blank' color="transparent" download>Resume</Button>
                     </div>
                 </div>
 

@@ -15,7 +15,7 @@ const Resume = () => {
                 </div>
                 <div className='col-md-6'>
                 <h5>Download My Resume</h5>
-                <Button href='https://drive.google.com/file/d/1F30AkcJRTBm8oKv3ffM42o4VAuEmhF5M/view?usp=sharing' color="transparent">Download</Button>
+                <Button href='https://drive.google.com/file/d/1HS_FgIRJ_TQP6giaQLouRbY5Pap1r4Ha/view?usp=sharing' color="transparent">Download</Button>
                 </div>
             </div>
             <div className='row d-flex justify-content-center mt-4'> 
