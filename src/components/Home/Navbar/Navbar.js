@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
+import './Navbar.css'
 
 const Navbar = () => {
     const [open, setOpen] = useState(false);
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <nav className="navbar navbar-expand-lg navbar-light  fixed-top">
             <button className="navbar-toggler" onClick={() => setOpen(!open)}
                 aria-controls="example-collapse-text"
                 aria-expanded={open} type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
@@ -15,7 +16,7 @@ const Navbar = () => {
 
                 <ul className="navbar-nav m-auto text-black mt-2 mt-lg-0">
                     <li className="nav-item mx-4">
-                        <NavLink className='text-decoration-none ' to='/home'>Home</NavLink>
+                        <NavLink className='text-decoration-none' to='/home'>Home</NavLink>
                     </li>
                     <li className="nav-item text-dark mx-4">
                         <NavLink className='text-decoration-none' to='/projects'>Projects</NavLink>

@@ -1,6 +1,5 @@
 import React from 'react';
 import { Button } from 'react-bootstrap';
-import reactLogo from '../../images/reactLogo.png';
 import screen1 from '../../images/travel-guru-page1.png'
 import screen2 from '../../images/travel-guru2.png'
 import screen3 from '../../images/travel-guru3.png'

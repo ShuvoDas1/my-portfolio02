@@ -4,6 +4,7 @@ import screen1 from '../../../images/volunteer-network1.png'
 import screen2 from '../../../images/volunteer-network2.png'
 import screen3 from '../../../images/volunteer-network3.png'
 import screen4 from '../../../images/volunteer-network4.png'
+import './VolunteerNetwork.css'
 
 const VolunteerNetwork = () => {
     return (
@@ -41,14 +42,14 @@ const VolunteerNetwork = () => {
                     <Button>Github Link Server</Button>
                 </a>
                 <br />
-                <div className='my-5'>
+                <div>
                     <h3> Screenshort:</h3>
-                    <div>
+                    <div className='screenshorts container'>
                         <img width='500px' src={screen1} alt='' />
                         <img width='500px' className='ml-3' src={screen2} alt='' />
                         <br/>
-                        <img className='mt-3' width='500px' src={screen3} alt='' />
-                        <img className='mt-3 ml-3' width='500px' src={screen4} alt='' />
+                        <img  width='500px' src={screen3} alt='' />
+                        <img  width='500px' src={screen4} alt='' />
                     </div>
                 </div>
             </div>

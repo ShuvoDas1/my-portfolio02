@@ -25,9 +25,9 @@ const ProjectList = () => {
 
 
     return (
-        <section className='projectsList my-5'>
+        <section className='projectsList py-5'>
             <div className=" mt-1">
-                <h1 className='text-center pt-5  text-success'>MY PROJECTS</h1>
+                <h1 className='text-center pt-5  text-success' data-aos='fade-down'>MY PROJECTS</h1>
                 <div className="card container mb-3" data-aos="fade-right">
                     <div className="row no-gutters">
                         <div className="col-md-6 col-xs-12 col-sm-12" >
