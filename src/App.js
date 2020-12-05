@@ -24,18 +24,18 @@ function App() {
         <Route  path='/home'> 
             <Home></Home>
         </Route>
-        <Route path='/projects'>
+        {/* <Route path='/projects'>
             <Projects></Projects>
-        </Route>
+        </Route> */}
         <Route path='/blog'>
             <Blog></Blog>
         </Route>
         <Route path='/myResume'>
             <Resume></Resume>
         </Route>
-        <Route path='/aboutMe'>
+        {/* <Route path='/aboutMe'>
             <AboutMe></AboutMe>
-        </Route>
+        </Route> */}
         <Route path='/contactMe'>
             <ContactMe></ContactMe>
         </Route>

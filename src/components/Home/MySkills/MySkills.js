@@ -35,7 +35,7 @@ const MySkills = () => {
 
     return (
         <section className='mySkill py-5'>
-            <div className="container mt-0 py-5">
+            <div className="container skills mt-0 py-5">
                 <h1 className='text-center text-light' data-aos='fade-down'>MY SKILLS</h1>
                 <div class="row">
                     <div class="col-md-6 col-12 frontend" data-aos='fade-right' >

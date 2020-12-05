@@ -7,7 +7,7 @@ import linkedin from '../../../images/linkedin.png'
 
 const Footer = () => {
     return (
-        <section className=' '>
+        <section>
             <div className='footer text-light row'>
                 <div className='socialLink col-md-4 col-12'>
                     <a href="https://www.facebook.com/" target='blank'><img src={facebook}   alt="facebook" /></a>
@@ -16,7 +16,7 @@ const Footer = () => {
                     <a href="https://www.linkedin.com/in/shuvodas01/" target='blank'><img  src={linkedin} style={{width: '40px',marginLeft: '5px'}}  alt="github" /></a>
                 </div>
                 <div className='col-md-4 my-4 my-md-0 col-12'>
-                    <h3 className='text-warning'>Shuvo Das <span style={{color: 'white'}}>||</span> <span className='text-success'>Portfolio</span></h3>
+                    <h4 className='text-warning'>Shuvo Das <span style={{color: 'white'}}>||</span> <span className='text-success'>Portfolio</span></h4>
                 </div>
                 <div className-='col-md-4 col-12'>
                     <p>&copy; {new Date().getFullYear().toString()} All Rights Reserved</p>

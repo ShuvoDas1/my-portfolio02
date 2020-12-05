@@ -27,7 +27,7 @@ const ProjectList = () => {
     return (
         <section className='projectsList py-5'>
             <div className=" mt-1">
-                <h1 className='text-center pt-5  text-success' data-aos='fade-down'>MY PROJECTS</h1>
+                <h1 className='text-center pt-5  text-white' data-aos='fade-down'>MY PROJECTS</h1>
                 <div className="card container mb-3" data-aos="fade-right">
                     <div className="row no-gutters">
                         <div className="col-md-6 col-xs-12 col-sm-12" >
@@ -118,7 +118,7 @@ const ProjectList = () => {
                                 <h4 className="card-text text-left">This is a Travel-Agency website. Designed and developed the website using framework React.Js  along with Javascript, React-Bootstrap.</h4>
                             </div>
                             <div className='d-flex flex-row justify-content-left mx-2 technology text-light'>
-                                <h4 >ReactJs</h4>
+                                <h4>ReactJs</h4>
                                 <h4>Javascript</h4>
                                 <h4>Firebase</h4>
                             </div>
@@ -188,9 +188,9 @@ const ProjectList = () => {
                 
             </div>
 
-            <div className='seeMoreProjects'>
+            {/* <div className='seeMoreProjects'>
                 <button className='btn btn-info seeMoreBtn p-2' style={{fontSize: '25px'}}>See More Projects</button>
-            </div>
+            </div> */}
            
             {/* <div className='projectsCard'>
                 <div className="row">
