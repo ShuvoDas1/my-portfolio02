@@ -1,0 +1,11 @@
+.footer{
+   display: flex;
+   background: #202020;
+   justify-content: space-between;
+   padding: 50px;
+}
+
+.footer img{
+   
+}
+

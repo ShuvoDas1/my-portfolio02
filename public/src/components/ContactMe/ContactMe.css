@@ -1,0 +1,21 @@
+.contactMain{
+    width: 100%;
+    height: 100%;
+    padding: 120px;
+
+}
+.formMain{
+    width: 800px;
+    margin-top: 120px;
+
+}
+.contactForm{
+    /* background-color: #1D293A;
+    border-radius: 4px; */
+    text-align: center;
+    margin: 0 auto;
+    /* width: 600px; */
+    padding : 30px;
+    
+    /* box-shadow: 1px 1px 1px 1px lightgray; */
+}
